@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>Landis.Library.Succession</RootNamespace>
-    <AssemblyName>Landis.Library.Succession-v9</AssemblyName>
-    <AssemblyTitle>Landis.Library.Succession-v9</AssemblyTitle>
-    <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
-    <AssemblyProduct>Landis.Library.Succession-v9</AssemblyProduct>
-    <AssemblyCopyright>LANDIS-II Foundation</AssemblyCopyright>        
-    <AssemblyVersion>9.0.1</AssemblyVersion>
-    <AssemblyDescription>Input Parameters Library for LANDIS-II</AssemblyDescription>
+    <AssemblyName>Landis.Library.Succession-v10</AssemblyName>
+    <AssemblyTitle>Landis.Library.Succession-v10</AssemblyTitle>
+	  <AssemblyProduct>Landis.Library.Succession-v10</AssemblyProduct>
+	  <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
+	  <AssemblyCopyright>LANDIS-II Foundation</AssemblyCopyright>        
+    <AssemblyVersion>10.0</AssemblyVersion>
+	  <Version>10.0</Version>
+	  <FileVersion>10.0</FileVersion>
+	  <AssemblyDescription>Input Parameters Library for LANDIS-II</AssemblyDescription>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Succession</RepositoryUrl>
@@ -18,11 +20,9 @@
     <Authors>LANDIS-II Foundation</Authors>
     <Product>Succession Library</Product>
     <Copyright>LANDIS-II Foundation</Copyright>
-    <Version>9.0.1</Version>
     <PackageTags>LANDIS-II;Landis;Library;Succession</PackageTags>
     <Description>Succession Library for LANDIS-II</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
-    <FileVersion>9.0.1</FileVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
@@ -49,7 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Landis.Library.UniversalCohorts-v1">
+    <Reference Include="Landis.Library.UniversalCohorts-v2">
       <HintPath>lib\Landis.Library.UniversalCohorts-v1.dll</HintPath>
     </Reference>
     <Reference Include="Seed_Dispersal">
